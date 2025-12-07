@@ -1,0 +1,89 @@
+{
+    "profile": {
+        "name": "Khushi Mehta",
+        "role": "Software Engineer",
+        "summary": "I'm a Software Engineer with one year of experience building scalable and maintainable web applications using React, Node.js, PostgreSQL, and MongoDB. I’ve also gained hands-on experience with Spring Boot and Angular, showcasing adaptability across both frontend and backend development. I’ve worked on projects like PlutonalAI, Fundation, and HRMS suites, contributing to impactful features and delivering solutions ahead of deadlines. I’m based in Ahmedabad, Gujarat, India.",
+        "location": "Ahmedabad, Gujarat, India",
+        "resumeUrl": "#"
+    },
+    "socials": [
+        {
+            "platform": "GitHub",
+            "url": "https://github.com/Khushi-Mehta"
+        },
+        {
+            "platform": "LinkedIn",
+            "url": "https://linkedin.com/in/khushi-mehta"
+        },
+        {
+            "platform": "Email",
+            "url": "mailto:mehtakhushi192002@gmail.com"
+        }
+    ],
+    "skills": [
+        "JavaScript",
+        "TypeScript",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "Angular",
+        "Spring Boot",
+        "Java",
+        "SQL",
+        "MongoDB",
+        "PostgreSQL",
+        "Docker",
+        "Git"
+    ],
+    "experience": [
+        {
+            "company": "Elsner",
+            "role": "Associate Software Developer",
+            "duration": "July 2025 – Present",
+            "description": "Working on PlutonalAI AI-Driven Financial Insight Platform based on React. Worked on Weekmate (HRMS, Payroll, EConnect) and 1FCode Banking Project (APIs for nominee management)."
+        },
+        {
+            "company": "Integrella",
+            "role": "Software Developer Intern",
+            "duration": "Jan 2025 – Jun 2025",
+            "description": "Worked on Fundation (investment management tool in React) and built backend for an AI-powered avatar app using Node.js, PostgreSQL, and Prisma ORM."
+        }
+    ],
+    "education": [
+        {
+            "institution": "DA-IICT",
+            "degree": "Master of Science in Information Technology",
+            "duration": "July 2023 – May 2025"
+        },
+        {
+            "institution": "Bhagwan Mahavir University",
+            "degree": "Bachelor of Science in Information Technology",
+            "duration": "July 2020 – May 2023"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Blogbuzz",
+            "description": "Article posting system allowing users to post articles with a dashboard for verify/not verify article and admin panel.",
+            "tags": [
+                "Angular",
+                "Node.js",
+                "MongoDB",
+                "Express",
+                "JWT"
+            ],
+            "image": "",
+            "link": "#"
+        },
+        {
+            "title": "OOPs-Driven Banking Console App",
+            "description": "Java-based banking console application utilizing core object-oriented programming principles like inheritance, interfaces, and abstraction.",
+            "tags": [
+                "Java",
+                "OOP"
+            ],
+            "image": "",
+            "link": "#"
+        }
+    ]
+}
