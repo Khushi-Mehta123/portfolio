@@ -9,7 +9,7 @@ const Footer = () => {
             fontSize: '0.9rem',
             marginTop: 'auto'
         }}>
-            <p>Built with by {data.profile.name}.</p>
+            <p>Built by {data.profile.name}.</p>
             <div style={{ marginTop: '0.5rem', display: 'flex', justifyContent: 'center', gap: '1rem' }}>
                 {data.socials.map(s => (
                     <a key={s.platform} href={s.url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }}>
