@@ -162,7 +162,6 @@ const Projects = () => {
                 <h2 className="section-title">Some Things I've Built</h2>
                 <div style={{
                     display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
                     gap: '2rem'
                 }}>
                     {data.projects.map((project, index) => (
