@@ -50,6 +50,43 @@ const Experience = () => {
                             <p style={{ color: 'var(--text-secondary)', maxWidth: '700px' }}>
                                 {job.description}
                             </p>
+                            <br />
+                            <p style={{ color: 'var(--text-secondary)', maxWidth: '700px' }}>
+                                Some of My work :
+
+                            </p>
+                            {/* Work Links */}
+                            <div style={{
+                                display: 'flex',
+                                flexWrap: 'wrap',
+                                gap: '0.6rem',
+                                marginTop: '0.3rem'
+                            }}>
+                                {Object.entries(job.link).map(([label, url], i) => (
+                                    <motion.a
+                                        key={i}
+                                        href={url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        whileHover={{ scale: 1.05 }}
+                                        whileTap={{ scale: 0.97 }}
+                                        style={{
+                                            padding: "6px 12px",
+                                            fontSize: "0.85rem",
+                                            borderRadius: "6px",
+                                            backgroundColor: "var(--card-bg)",
+                                            border: "1px solid var(--border-color)",
+                                            textDecoration: "none",
+                                            color: "var(--text-accent)",
+                                            fontWeight: 500,
+                                            cursor: "pointer"
+                                        }}
+                                    >
+                                        🔗 {label}
+                                    </motion.a>
+                                ))}
+                            </div>
+                            <br />
                         </motion.div>
                     ))}
                 </div>
