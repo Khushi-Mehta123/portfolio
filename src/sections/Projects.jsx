@@ -26,7 +26,35 @@ const ProjectCard = ({ project }) => {
                 backgroundColor: 'var(--bg-secondary)', // Placeholder if no image
                 overflow: 'hidden'
             }}>
-                {project.image ? (
+                {project.images && project.images.length > 0 ? (
+                    <div style={{
+                        display: 'flex',
+                        height: '100%',
+                        width: '100%'
+                    }}>
+                        {project.images.slice(0, 3).map((img, idx) => (
+                            <div key={idx} style={{ position: 'relative', height: '100%', overflow: 'hidden' }}>
+                                <div
+                                    className="project-overlay"
+                                    style={{
+                                        position: 'absolute', top: 0, left: 0, width: '100%', height: '100%',
+                                        backgroundColor: 'var(--text-accent)', opacity: 0.4, zIndex: 1,
+                                        transition: 'opacity 0.3s ease', mixBlendMode: 'multiply'
+                                    }}
+                                />
+                                <img
+                                    src={img}
+                                    alt={`${project.title} ${idx + 1}`}
+                                    className="project-img"
+                                    style={{
+                                        width: '100%', height: '100%', objectFit: 'cover',
+                                        filter: 'grayscale(100%)', transition: 'filter 0.3s ease, transform 0.5s ease'
+                                    }}
+                                />
+                            </div>
+                        ))}
+                    </div>
+                ) : project.image ? (
                     <>
                         <div
                             style={{
@@ -86,7 +114,7 @@ const ProjectCard = ({ project }) => {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
                     <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text-primary)' }}>{project.title}</h3>
                     <div style={{ display: 'flex', gap: '0.5rem' }}>
-                        <a href={project.link} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }}><ExternalLink size={20} /></a>
+                        {/* <a href={project.link} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }}><ExternalLink size={20} /></a> */}
                         {/* Assuming there might be a github link in future schema, using link for now */}
                     </div>
                 </div>
@@ -116,8 +144,9 @@ ProjectCard.propTypes = {
         title: PropTypes.string,
         description: PropTypes.string,
         image: PropTypes.string,
+        images: PropTypes.arrayOf(PropTypes.string),
         tags: PropTypes.arrayOf(PropTypes.string),
-        link: PropTypes.string
+        // link: PropTypes.string
     }).isRequired
 };
 

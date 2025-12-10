@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import data from '../data/data.json';
-
 const Experience = () => {
     return (
         <section id="experience" className="container section-padding">

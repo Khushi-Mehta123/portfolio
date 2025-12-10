@@ -4,7 +4,7 @@
         "role": "Software Engineer",
         "summary": "I'm a Software Engineer with one year of experience building scalable and maintainable web applications using React, Node.js, PostgreSQL, and MongoDB. I’ve also gained hands-on experience with Spring Boot and Angular, showcasing adaptability across both frontend and backend development. I’ve worked on projects like PlutonalAI, Fundation, and HRMS suites, contributing to impactful features and delivering solutions ahead of deadlines. I’m based in Ahmedabad, Gujarat, India.",
         "location": "Ahmedabad, Gujarat, India",
-        "resumeUrl": "#"
+        "resumeUrl": "https://drive.google.com/file/d/1wbjb6VaHJvQSHndzfwXT96CZFAmgT9Wh/view?usp=sharing"
     },
     "socials": [
         {
@@ -13,7 +13,7 @@
         },
         {
             "platform": "LinkedIn",
-            "url": "https://linkedin.com/in/khushi-mehta"
+            "url": "https://www.linkedin.com/in/khushi-mehta-a5064b266/"
         },
         {
             "platform": "Email",
@@ -40,13 +40,20 @@
             "company": "Elsner",
             "role": "Associate Software Developer",
             "duration": "July 2025 – Present",
-            "description": "Working on PlutonalAI AI-Driven Financial Insight Platform based on React. Worked on Weekmate (HRMS, Payroll, EConnect) and 1FCode Banking Project (APIs for nominee management)."
+            "description": "Working on PlutonalAI AI-Driven Financial Insight Platform based on React. Worked on Weekmate (HRMS, Payroll, EConnect) and 1FCode Banking Project (APIs for nominee management).",
+            "link": {
+                "Weekmate": "https://hrms.weekmate.in/signin"
+            }
         },
         {
             "company": "Integrella",
             "role": "Software Developer Intern",
             "duration": "Jan 2025 – Jun 2025",
-            "description": "Worked on Fundation (investment management tool in React) and built backend for an AI-powered avatar app using Node.js, PostgreSQL, and Prisma ORM."
+            "description": "Worked on Fundation (investment management tool in React) and built backend for an AI-powered avatar app using Node.js, PostgreSQL, and Prisma ORM.",
+            "link": {
+                "Fundation": "https://integrella-demo-001-zjwij8xrmz.dev.fundations.co.uk/",
+                "Avatar App": "https://avatar.integrella.net/"
+            }
         }
     ],
     "education": [
@@ -64,7 +71,7 @@
     "projects": [
         {
             "title": "Blogbuzz",
-            "description": "Article posting system allowing users to post articles with a dashboard for verify/not verify article and admin panel.",
+            "description": "Article posting system allowing users to post articles with a dashboard for verify/not verify article and admin panel. Allow user to manage user profile.",
             "tags": [
                 "Angular",
                 "Node.js",
@@ -72,17 +79,11 @@
                 "Express",
                 "JWT"
             ],
-            "image": "",
-            "link": "#"
-        },
-        {
-            "title": "OOPs-Driven Banking Console App",
-            "description": "Java-based banking console application utilizing core object-oriented programming principles like inheritance, interfaces, and abstraction.",
-            "tags": [
-                "Java",
-                "OOP"
+            "images": [
+                "/assets/blogbuzz.png",
+                "/assets/articles.png",
+                "/assets/profile.png"
             ],
-            "image": "",
             "link": "#"
         }
     ]
