@@ -2,7 +2,7 @@
     "profile": {
         "name": "Khushi Mehta",
         "role": "Software Engineer",
-        "summary": "I'm a Software Engineer with one year of experience building scalable and maintainable web applications using React, Node.js, PostgreSQL, and MongoDB. I’ve also gained hands-on experience with Spring Boot and Angular, showcasing adaptability across both frontend and backend development. I’ve worked on projects like PlutonalAI, Fundation, and HRMS suites, contributing to impactful features and delivering solutions ahead of deadlines. I’m based in Ahmedabad, Gujarat, India.",
+        "summary": "I'm a Software Engineer with 1-2 years of experience building scalable and maintainable web applications using React, Node.js, PostgreSQL, and MongoDB. I’ve also gained hands-on experience with Spring Boot and Angular, showcasing adaptability across both frontend and backend development. I’ve worked on projects like PlutonalAI, Fundation, and HRMS suites, contributing to impactful features and delivering solutions ahead of deadlines. I’m based in Ahmedabad, Gujarat, India.",
         "location": "Ahmedabad, Gujarat, India",
         "resumeUrl": "https://drive.google.com/file/d/1wbjb6VaHJvQSHndzfwXT96CZFAmgT9Wh/view?usp=sharing"
     },
@@ -40,19 +40,27 @@
             "company": "Elsner",
             "role": "Associate Software Developer",
             "duration": "July 2025 – Present",
-            "description": "Working on PlutonalAI AI-Driven Financial Insight Platform based on React. Worked on Weekmate (HRMS, Payroll, EConnect) and 1FCode Banking Project (APIs for nominee management).",
+            "description": "Working on an Workflow automation platform enabling users to design and execute workflows by creating nodes and connecting edges. Integrated Google Sheet/Drive, HTTP requests, Gmail, databases to automate multi-step tasks and streamline operations. Developed features for PlutonalAI (React.js), an AI-driven platform for financial insights and market analysis, including an interactive AI chat interface, Worked on the 1FCode Banking Project, where I created APIs for nominee management, certificate upload, and payload encoding/decoding, called third party APIs as well Worked on Elsner’s product Weekmate, an enterprise solution containing multi-tenant: HRMS TaskHub Payroll EConnect CRM",
             "link": {
                 "Weekmate": "https://hrms.weekmate.in/signin"
             }
         },
         {
             "company": "Integrella",
-            "role": "Software Developer Intern",
+            "role": "Software Developer",
             "duration": "Jan 2025 – Jun 2025",
-            "description": "Worked on Fundation (investment management tool in React) and built backend for an AI-powered avatar app using Node.js, PostgreSQL, and Prisma ORM.",
+            "description": "Worked on Fundation (investment management tool in React) and built backend for an AI-powered avatar app enabling image generation, email delivery, and secure data handling",
             "link": {
-                "Fundation": "https://integrella-demo-001-zjwij8xrmz.dev.fundations.co.uk/",
-                "Avatar App": "https://avatar.integrella.net/?q=B93D36E5D4CE9F175B3B84527B7BD"
+                "Fundation": "https://integrella-demo-001-zjwij8xrmz.dev.fundations.co.uk/"
+            }
+        },
+        {
+            "company": "Tenacious Techies",
+            "role": "Software Developer",
+            "duration": "Feb 2023 – Apr 2023",
+            "description": "Built a scalable multi-branch restaurant management system with role-based access (3 users) and centralized restaurant onboarding.Developed real-time order management, notifications, and tracking, including monitoring average order processing time per branch.",
+            "link": {
+                "FoodChow": "https://admin.foodchow.com/partner-login"
             }
         }
     ],
